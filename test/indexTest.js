@@ -1,4 +1,17 @@
-require ( './helpers.js' );
+// require ( './helpers.js' );
+const {
+  cats,
+  destructivelyAppendCat,
+  destructivelyPrependCat,
+  destructivelyRemoveLastCat,
+  destructivelyRemoveFirstCat,
+  appendCat,
+  prependCat,
+  removeLastCat,
+  removeFirstCat
+} = require('../index.js');  // Assuming the index.js file is one level up from the test folder
+
+
 
 describe('index.js', function () {
   describe('cats', function () {
